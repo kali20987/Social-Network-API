@@ -12,8 +12,6 @@ router.route('/').get(getUsers).post(createUser);
 
 // /api/users/:userId/friends/:friendId
 
-// not sure what to put here yet
-
 router
   .route('/:userId')
   .get(getSingleUser)
